@@ -1,0 +1,7 @@
+language: java
+jdk:
+- oraclejdk8
+after_success:
+- gradle travisRelease
+env:
+  secure: kE43Hd00HLtZMwFJ6L+49dh5XL+inqU7nXxy1l/M0+WFqSCL/i0r6as8LPONqxsoWZykGmiaQgQI6Rfvg6OWy1XMnFBXp6YxlVhU+qPWYi0girh/6BTdg07O3aQ5P6s05MMFybJ9ATHj4BMSurOTTfwjc2M8gyh3skyjtPT1AU4=
